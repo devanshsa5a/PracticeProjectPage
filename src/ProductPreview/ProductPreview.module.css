@@ -1,0 +1,56 @@
+.Productpreview{
+    width: 100%;
+    position: relative;
+    }
+    .Productpreview > img{
+      width: 100%;
+    }
+    .ProductData
+    {
+      width: 100%;
+    }
+    .TimeSection{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      color: rgb(255, 255, 255);
+      font-size: 48px;
+      font-weight: 600;
+    
+    
+    
+    }
+    .HeartSection{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      color: rgb(255, 255, 255);
+      font-size: 48px;
+      font-weight: 600;
+    
+    
+    }
+    .HeartSection > p{
+     margin-top: 16px;
+    
+    }
+    .HeartSection > i{
+      color : red;
+      -webkit-animation: beat 2s infinite;
+     }
+    
+     @-webkit-keyframes beat {
+       0% {
+         transform: scale(1,1);
+       }
+    
+       50% {
+         transform: (2,2);
+       }
+    
+       100% {
+         transform: scale(1,1);
+       }
+     }

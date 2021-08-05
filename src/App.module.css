@@ -1,0 +1,132 @@
+.Topbar{
+  background-color: rgb(36 30 32) ;
+   padding : 5px ;
+   width: 100%;
+    /* display: none; */
+   text-align: center;
+   position: fixed;
+   top:0;
+   left: 0;
+
+}
+.Topbar > img{
+  width :100px;
+}
+.MainContainer
+{
+  padding: 4% 12%;
+  margin: 32px;
+ width: 100%;
+ box-sizing: border-box;
+display:flex;
+align-items: center;
+}
+.Productpreview{
+width: 50%;
+position: relative;
+}
+.Productpreview > img{
+  width: 100%;
+}
+.ProductData{
+  width: 50%;
+
+}
+.TimeSection{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 600;
+
+
+
+}
+.HeartSection{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 600;
+
+
+}
+.HeartSection > p{
+ margin-top: 16px;
+
+}
+.HeartSection > i{
+  color : red;
+  -webkit-animation: beat 2s infinite;
+ }
+
+ @-webkit-keyframes beat {
+   0% {
+     transform: scale(1,1);
+   }
+
+   50% {
+     transform: (2,2);
+   }
+
+   100% {
+     transform: scale(1,1);
+   }
+ }
+
+.ProductTitle{
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px ;
+}
+.ProductDescription{
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 16px ;
+}
+.ProductImage{
+  width:100px;
+  min-width: 80px;
+  border: 3px solid transparent;
+  border-radius :10px;
+  margin: auto 10px;
+  cursor: pointer;
+}
+.SelectedProductImage{
+  border: 3px solid teal;
+}
+.FeautureButton{
+  min-width: 80px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  border: 0;
+  margin-right:12px;
+  text-align: center;
+  padding: 12px 24px;
+  font-weight: 500;
+  box-sizing: content-box;
+  font-size: 15px;
+  color:white;
+}
+.SelectedFeautureButton{
+  background-color: gray;
+}
+.BuyButton{
+  min-width: 80px;
+  color:white;
+  background-color: teal;
+  border-radius: 8px;
+  border: 0;
+  font-size: 20px;
+  /* margin-right:12px; */
+  text-align: center;
+  padding: 12px 24px;
+  font-weight: 500;
+  box-sizing: content-box;
+  margin-top:36px;
+}
